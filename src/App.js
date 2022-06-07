@@ -1,24 +1,27 @@
 import './App.css';
-import SearchInput from './component/input/searchInput';
 import Layout from './component/layout/layout';
-import HomeBanner from './component/banner/homeBanner';
-import Tap from './component/tap/tap';
+import { Routes, Route } from "react-router-dom";
+import {
+  HomePage,
+  CampaignPage,
+  FavoritePage,
+  HistoryPage,
+  ProfilePage,
+  SuggestCampaignPage,
+  VotePage,
+} from './page'
 function App() {
   return (
     <Layout>
-      <main className="px-3">
-        <div className="flex justify-between items-center py-3">
-          <div className="font-semibold">Name</div>
-          <div>
-            <img src="/img/avatar.png" alt="" width="48px" />
-          </div>
-        </div>
-
-        <SearchInput />
-        <HomeBanner />
-        <Tap />
-      </main>
-
+       <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/campaign" element={<CampaignPage />} />
+        <Route path="/favorite" element={<FavoritePage />} />
+        <Route path="/history" element={<HistoryPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/suggestCampaign" element={<SuggestCampaignPage />} />
+        <Route path="/vote" element={<VotePage />} />
+      </Routes>
     </Layout>
   );
 }

@@ -28,7 +28,7 @@ const HomeBanner = () => {
       <Slider {...settings}>
         {dataImage &&
           dataImage.map((item,key) => (
-            <div className="w-full rounded-[20px] overflow-hidden h-[165px] relative bg-gradient-to-t from-$gray-dark">
+            <div className="w-full rounded-[20px] overflow-hidden h-[195px] relative bg-gradient-to-t from-$gray-dark">
               <div className="mix-blend-overlay ">
                 <img src={item.image} alt="" width={'100%'} height={"165px"} className=" object-cover w-full h-full absolute" />
               </div>

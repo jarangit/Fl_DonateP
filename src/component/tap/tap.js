@@ -13,7 +13,6 @@ const Tap = () => {
         <CampaignItem />
         <CampaignItem />
         <CampaignItem />
-
       </div>
     </div>
   )

@@ -1,0 +1,7 @@
+export { default as HomePage } from './home'
+export { default as CampaignPage } from './campaign'
+export { default as FavoritePage } from './favorite'
+export { default as HistoryPage } from './history'
+export { default as ProfilePage } from './profile'
+export { default as SuggestCampaignPage } from './suggestCampaign'
+export { default as VotePage } from './vote'
