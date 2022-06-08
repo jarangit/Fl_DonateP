@@ -1,0 +1,301 @@
+export const mockCampaign = [{
+  "id": 1,
+  "title": "Glori",
+  "donate": 8806,
+  "totalDonate": 25225,
+  "user": 76392,
+  "endDate": "1/25/2022",
+  "image": "http://dummyimage.com/172x100.png/ff4444/ffffff",
+  "type": "donate",
+  "value": 49
+}, {
+  "id": 2,
+  "title": "Darlleen",
+  "donate": 41733,
+  "totalDonate": 71065,
+  "user": 70778,
+  "endDate": "10/1/2021",
+  "image": "http://dummyimage.com/129x100.png/cc0000/ffffff",
+  "type": "donate",
+  "value": 9
+}, {
+  "id": 3,
+  "title": "Sharon",
+  "donate": 40998,
+  "totalDonate": 19325,
+  "user": 59014,
+  "endDate": "1/26/2022",
+  "image": "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
+  "type": "donate",
+  "value": 97
+}, {
+  "id": 4,
+  "title": "Dewie",
+  "donate": 31506,
+  "totalDonate": 72080,
+  "user": 53502,
+  "endDate": "2/9/2022",
+  "image": "http://dummyimage.com/144x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 27
+}, {
+  "id": 5,
+  "title": "Humberto",
+  "donate": 86197,
+  "totalDonate": 41625,
+  "user": 50662,
+  "endDate": "12/14/2021",
+  "image": "http://dummyimage.com/214x100.png/5fa2dd/ffffff",
+  "type": "donate",
+  "value": 100
+}, {
+  "id": 6,
+  "title": "Brinn",
+  "donate": 7168,
+  "totalDonate": 85585,
+  "user": 28558,
+  "endDate": "9/22/2021",
+  "image": "http://dummyimage.com/122x100.png/cc0000/ffffff",
+  "type": "donate",
+  "value": 5
+}, {
+  "id": 7,
+  "title": "Harlan",
+  "donate": 38429,
+  "totalDonate": 94299,
+  "user": 48593,
+  "endDate": "7/1/2021",
+  "image": "http://dummyimage.com/141x100.png/5fa2dd/ffffff",
+  "type": "donate",
+  "value": 32
+}, {
+  "id": 8,
+  "title": "Verge",
+  "donate": 90623,
+  "totalDonate": 32547,
+  "user": 37308,
+  "endDate": "6/15/2021",
+  "image": "http://dummyimage.com/203x100.png/ff4444/ffffff",
+  "type": "vote",
+  "value": 14
+}, {
+  "id": 9,
+  "title": "Shalna",
+  "donate": 15448,
+  "totalDonate": 95766,
+  "user": 24417,
+  "endDate": "6/9/2021",
+  "image": "http://dummyimage.com/229x100.png/dddddd/000000",
+  "type": "vote",
+  "value": 44
+}, {
+  "id": 10,
+  "title": "Nevil",
+  "donate": 47492,
+  "totalDonate": 51312,
+  "user": 31795,
+  "endDate": "1/26/2022",
+  "image": "http://dummyimage.com/171x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 12
+}, {
+  "id": 11,
+  "title": "Gael",
+  "donate": 58579,
+  "totalDonate": 89720,
+  "user": 74608,
+  "endDate": "9/22/2021",
+  "image": "http://dummyimage.com/127x100.png/ff4444/ffffff",
+  "type": "vote",
+  "value": 94
+}, {
+  "id": 12,
+  "title": "Vinnie",
+  "donate": 58996,
+  "totalDonate": 83853,
+  "user": 23781,
+  "endDate": "6/22/2021",
+  "image": "http://dummyimage.com/223x100.png/dddddd/000000",
+  "type": "donate",
+  "value": 68
+}, {
+  "id": 13,
+  "title": "Lilli",
+  "donate": 5938,
+  "totalDonate": 65799,
+  "user": 4473,
+  "endDate": "7/15/2021",
+  "image": "http://dummyimage.com/151x100.png/cc0000/ffffff",
+  "type": "vote",
+  "value": 58
+}, {
+  "id": 14,
+  "title": "Danika",
+  "donate": 21511,
+  "totalDonate": 27776,
+  "user": 88628,
+  "endDate": "7/30/2021",
+  "image": "http://dummyimage.com/123x100.png/ff4444/ffffff",
+  "type": "vote",
+  "value": 92
+}, {
+  "id": 15,
+  "title": "Benni",
+  "donate": 79113,
+  "totalDonate": 48874,
+  "user": 12973,
+  "endDate": "1/28/2022",
+  "image": "http://dummyimage.com/116x100.png/dddddd/000000",
+  "type": "vote",
+  "value": 89
+}, {
+  "id": 16,
+  "title": "Mela",
+  "donate": 56098,
+  "totalDonate": 35072,
+  "user": 92945,
+  "endDate": "9/13/2021",
+  "image": "http://dummyimage.com/125x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 86
+}, {
+  "id": 17,
+  "title": "Joela",
+  "donate": 18749,
+  "totalDonate": 41172,
+  "user": 84780,
+  "endDate": "4/3/2022",
+  "image": "http://dummyimage.com/142x100.png/ff4444/ffffff",
+  "type": "vote",
+  "value": 29
+}, {
+  "id": 18,
+  "title": "Hynda",
+  "donate": 26450,
+  "totalDonate": 92059,
+  "user": 89198,
+  "endDate": "6/11/2021",
+  "image": "http://dummyimage.com/165x100.png/ff4444/ffffff",
+  "type": "vote",
+  "value": 97
+}, {
+  "id": 19,
+  "title": "Danny",
+  "donate": 3187,
+  "totalDonate": 68110,
+  "user": 958,
+  "endDate": "7/26/2021",
+  "image": "http://dummyimage.com/216x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 89
+}, {
+  "id": 20,
+  "title": "Haydon",
+  "donate": 36734,
+  "totalDonate": 43209,
+  "user": 10430,
+  "endDate": "7/15/2021",
+  "image": "http://dummyimage.com/130x100.png/cc0000/ffffff",
+  "type": "donate",
+  "value": 22
+}, {
+  "id": 21,
+  "title": "Poul",
+  "donate": 27666,
+  "totalDonate": 90589,
+  "user": 52719,
+  "endDate": "4/15/2022",
+  "image": "http://dummyimage.com/225x100.png/ff4444/ffffff",
+  "type": "donate",
+  "value": 30
+}, {
+  "id": 22,
+  "title": "Isahella",
+  "donate": 88634,
+  "totalDonate": 20536,
+  "user": 18897,
+  "endDate": "8/20/2021",
+  "image": "http://dummyimage.com/195x100.png/ff4444/ffffff",
+  "type": "donate",
+  "value": 57
+}, {
+  "id": 23,
+  "title": "Bernarr",
+  "donate": 30634,
+  "totalDonate": 41116,
+  "user": 27414,
+  "endDate": "10/10/2021",
+  "image": "http://dummyimage.com/104x100.png/cc0000/ffffff",
+  "type": "donate",
+  "value": 50
+}, {
+  "id": 24,
+  "title": "Lincoln",
+  "donate": 68601,
+  "totalDonate": 99589,
+  "user": 68797,
+  "endDate": "2/22/2022",
+  "image": "http://dummyimage.com/248x100.png/cc0000/ffffff",
+  "type": "vote",
+  "value": 68
+}, {
+  "id": 25,
+  "title": "Caressa",
+  "donate": 21067,
+  "totalDonate": 51535,
+  "user": 61492,
+  "endDate": "2/24/2022",
+  "image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff",
+  "type": "donate",
+  "value": 67
+}, {
+  "id": 26,
+  "title": "Marcel",
+  "donate": 59384,
+  "totalDonate": 97442,
+  "user": 6950,
+  "endDate": "4/29/2022",
+  "image": "http://dummyimage.com/163x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 68
+}, {
+  "id": 27,
+  "title": "Josephine",
+  "donate": 85393,
+  "totalDonate": 28787,
+  "user": 81196,
+  "endDate": "12/31/2021",
+  "image": "http://dummyimage.com/195x100.png/5fa2dd/ffffff",
+  "type": "vote",
+  "value": 85
+}, {
+  "id": 28,
+  "title": "Boote",
+  "donate": 55052,
+  "totalDonate": 93762,
+  "user": 66141,
+  "endDate": "8/25/2021",
+  "image": "http://dummyimage.com/243x100.png/cc0000/ffffff",
+  "type": "vote",
+  "value": 41
+}, {
+  "id": 29,
+  "title": "Towney",
+  "donate": 96914,
+  "totalDonate": 27052,
+  "user": 59149,
+  "endDate": "12/2/2021",
+  "image": "http://dummyimage.com/100x100.png/dddddd/000000",
+  "type": "donate",
+  "value": 57
+}, {
+  "id": 30,
+  "title": "Wilone",
+  "donate": 81247,
+  "totalDonate": 65887,
+  "user": 61108,
+  "endDate": "10/25/2021",
+  "image": "http://dummyimage.com/114x100.png/dddddd/000000",
+  "type": "vote",
+  "value": 41
+}]
