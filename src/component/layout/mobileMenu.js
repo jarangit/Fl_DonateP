@@ -10,7 +10,7 @@ const MobileMenu = () => {
           <Link to={"/"}>
             {pathname === "/" ?
               (
-                <img src={'/img/icon/homeOr.svg'} alt={""} />
+                <img src={'/img/icon/homeOr.png'} alt={""} className='shadow_orange' />
               ) : (
                 <img src={'/img/icon/home.svg'} alt={""} />
               )
@@ -21,34 +21,34 @@ const MobileMenu = () => {
           <Link to={"/campaign"}>
             {pathname === "/campaign" ?
               (
-                <img src={'/img/icon/noteOr.svg'} alt={""} />
+                <img src={'/img/icon/noteOr.svg'} alt={""} className='shadow_orange' />
               ) : (
                 <img src={'/img/icon/note.svg'} alt={""} />
               )
-            }         
-             </Link>
+            }
+          </Link>
         </li>
         <li>
           <Link to={"/history"}>
             {pathname === "/history" ?
               (
-                <img src={'/img/icon/listOr.svg'} alt={""} />
+                <img src={'/img/icon/listOr.svg'} alt={""} className='shadow_orange' />
               ) : (
                 <img src={'/img/icon/list.svg'} alt={""} />
               )
-            }          
-            </Link>
+            }
+          </Link>
         </li>
         <li>
           <Link to={"/favorite"}>
             {pathname === "/favorite" ?
               (
-                <img src={'/img/icon/favoriteOr.svg'} alt={""} />
+                <img src={'/img/icon/favoriteOr.svg'} alt={""} className='shadow_orange' />
               ) : (
                 <img src={'/img/icon/favorite.svg'} alt={""} />
               )
-            }          
-            </Link>
+            }
+          </Link>
         </li>
       </ul>
     </div>
