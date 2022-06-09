@@ -1,6 +1,5 @@
 import React from 'react'
 import CampaignItem from '../campaign/campaignItem'
-
 const Tap = ({ data, setTypeTap, typeTap }) => {
   return (
     <div>
@@ -23,6 +22,7 @@ const Tap = ({ data, setTypeTap, typeTap }) => {
           data.map((item, key) => (
             <React.Fragment key={key}>
               <CampaignItem
+                typeTap={typeTap}
                 title={item.title}
                 donate={item.donate}
                 endDate={item.endDate}
@@ -37,6 +37,7 @@ const Tap = ({ data, setTypeTap, typeTap }) => {
           ))}
 
       </div>
+
     </div>
   )
 }

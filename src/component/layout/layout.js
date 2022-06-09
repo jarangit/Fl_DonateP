@@ -4,7 +4,7 @@ import MobileMenu from './mobileMenu'
 const Layout = ({ children }) => {
   return (
     <div>
-      <div>
+      <div className="mb-20">
         {children}
       </div>
       <MobileMenu />
