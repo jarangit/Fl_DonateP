@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import SlideComment from '../../component/comment/slideComent';
 import TopBar from '../../component/layout/topBar';
 import ProgressBar from '../../component/progress/progressBar';
 import { getCampaign } from '../../service/campaign/campaignService'
@@ -105,11 +106,27 @@ const CampaignId = () => {
               การศึกษา โภชนาการ ทักษะชีวิต และจริยธรรมที่เหมาะสม รวมถึง
               สร้างพื้นที่ปลอดภัยให้เด็กๆ เพื่อลดปัญหาด้านพฤติกรรมและสังคม
             </div>
+
+            <div className='grid grid-cols-2 gap-2 my-6'>
+              <div>
+                <img src="/img/banner3.png" alt="" className='rounded-lg' />
+              </div>
+              <div>
+                <img src="/img/banner4.png" alt="" className='rounded-lg' />
+              </div>
+            </div>
           </div>
 
-          {/* <div>
-            slide comments
-          </div> */}
+          <div>
+            {/* <CommentItem/> */}
+            <SlideComment/>
+          </div>
+
+          <div>
+            <button
+             className='bg-$orange w-full mt-6 h-[35px] text-$white rounded-lg font-bold'
+            >บริจาค</button>
+          </div>
         </div>
       ) : null}
     </div>
