@@ -17,7 +17,7 @@ const Tap = ({ data, setTypeTap, typeTap }) => {
           Vote
         </div>
       </div>
-      <div>
+      <div >
         {data &&
           data.map((item, key) => (
             <React.Fragment key={key}>

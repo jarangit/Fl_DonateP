@@ -20,7 +20,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <main className="px-3">
+      <main className="px-3 animate-fade-in-down">
         <div className="flex justify-between items-center py-3">
           <div className="font-semibold">Name</div>
           <div>

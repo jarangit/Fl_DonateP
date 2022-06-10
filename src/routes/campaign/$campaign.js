@@ -23,7 +23,7 @@ const CampaignId = () => {
   }, [campaignId])
 
   return (
-    <div className="p-3">
+    <div className="p-3 animate-fade-in-down">
       <TopBar
         name="Campaign"
         link={`/`}
