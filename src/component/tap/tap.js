@@ -41,7 +41,7 @@ const Tap = () => {
 
       <div>
         {loading ? (
-          <div>
+          <div className=' relative'>
             <Loading />
           </div>
         ) : (
