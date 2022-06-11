@@ -5,6 +5,8 @@ const TopBar = ({
   name,
   link,
   icon,
+  setFunctions,
+  value
 }) => {
   return (
     <div className="flex  items-center justify-between mb-3">
@@ -18,7 +20,10 @@ const TopBar = ({
       </div>
       <div>
         {icon && (
-          <div className="cursor-pointer p-2 rounded-lg shadow-[0_2px_10px_1px_rgba(0,0,0,0.3)]">
+          <div
+            className="cursor-pointer p-2 rounded-lg shadow-[0_2px_10px_1px_rgba(0,0,0,0.3)]"
+            onClick={() => setFunctions(!value) ? setFunctions : ''}
+          >
             <img src={icon} alt="like" width={20} />
           </div>
         )}
