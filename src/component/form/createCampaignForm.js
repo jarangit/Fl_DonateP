@@ -20,7 +20,7 @@ const CreateCampaignForm = () => {
     console.log(data);
   }
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <form onSubmit={handleSubmit(onSubmit)} className = "flex flex-col gap-5">
       <div id="box1" className="flex flex-col gap-5 py-5 px-3 border border-$gray-light rounded-lg">
         <div>
           <div className='text-sm font-semibold'>
