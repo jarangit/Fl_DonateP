@@ -20,7 +20,7 @@ const MobileMenu = () => {
         </li>
         <li>
           <Link to={"/campaigns"}>
-            {pathname === "/campaign" ?
+            {pathname === "/campaigns" ?
               (
                 <img src={'/img/icon/noteOr.svg'} alt={""} className='shadow_orange' />
               ) : (
