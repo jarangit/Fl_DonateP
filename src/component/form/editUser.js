@@ -43,7 +43,6 @@ const EditUserForm = () => {
                 value={value}
                 onChange={onChange}
                 type={"file"}
-              // className="bg-$gray-light w-full h-[36px] rounded-lg mt-2 pl-3" 
               />
             )}
           />

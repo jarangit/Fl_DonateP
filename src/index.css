@@ -13,9 +13,14 @@ code {
   font-family: "Kanit", sans-serif;
 }
 
-input {
+input, textarea {
   outline: none;
   font-family: "Kanit", sans-serif;
+  color: #3e3939;
+
+}
+input:focus, textarea:focus {
+  border: 2px solid #FF7517;
 }
 
 .slick-slide > div {
