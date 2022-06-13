@@ -1,21 +1,20 @@
 import React, { useState } from 'react'
 import TopBar from '../../component/layout/topBar'
-import TapContent from '../../component/tap/tapContent'
 import TapNavItem from '../../component/tap/tapNavItem'
-import ListDonated from '../../component/donated/listDonated'
-import ListSentCampaign from '../../component/campaign/listSentCampaign'
-import ListVoted from '../../component/vote/listVoted'
-const HistoryPage = () => {
+import TapContent from '../../component/tap/tapContent'
+import ListFavorite from '../../component/favorite/listFavorite'
+
+const FavoritePage = () => {
   const [activeTap, setActiveTap] = useState("tap1")
 
   return (
     <div className="animate-fade-in-down">
       <div className='mainBoxShadow p-3'>
         <TopBar
-          name="History"
+          name="Favorite"
           link={`/`}
         />
-        <ul className='flex gap-3 justify-between mt-10 h-10 items-center'>
+        <ul className='flex gap-5 mt-10 h-10 items-center'>
           <TapNavItem
             id="tap1"
             activeTab={activeTap}
@@ -24,12 +23,6 @@ const HistoryPage = () => {
           />
           <TapNavItem
             id="tap2"
-            activeTab={activeTap}
-            setActiveTab={setActiveTap}
-            title="รายการส่งแคมเปญ"
-          />
-          <TapNavItem
-            id="tap3"
             activeTab={activeTap}
             setActiveTab={setActiveTap}
             title="รายการที่โหวต"
@@ -42,22 +35,16 @@ const HistoryPage = () => {
           id="tap1"
           activeTab={activeTap}
         >
-          <ListDonated />
+         <ListFavorite/>
         </TapContent>
         <TapContent
           id="tap2"
           activeTab={activeTap}
         >
-          <ListSentCampaign />
-        </TapContent>
-        <TapContent
-          id="tap3"
-          activeTab={activeTap}
-        >
-          <ListVoted />
+         <ListFavorite/>
         </TapContent>
       </div>
     </div>)
 }
 
-export default HistoryPage
+export default FavoritePage

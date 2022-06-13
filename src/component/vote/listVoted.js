@@ -6,7 +6,7 @@ const ListVoted = () => {
     <div className='animate-fade-in-down'>
       {/* <VotedItem /> */}
       <div className=' flex justify-center items-center text-$gray'>
-      ยังไม่มีรายการที่สนใจ
+        ยังไม่มีรายการที่สนใจ
       </div>
     </div>
   )
