@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const FavoriteItem = ({ typeTap, title, donate, totalDonate, user, endDate, image, type, value, id }) => {
   return (
     <div>
-      <Link to={`/${typeTap === "donate" ? 'campaigns' : typeTap}/${id}`}>
+      <Link to={`/campaigns/1`}>
         <div className="my-4  rounded-lg overflow-hidden flex shadow-[0_2px_10px_0px_rgba(0,0,0,0.2)]">
           <div className="w-1/3 h-full">
             <img src="/img/camItem.png" alt="" width="100%" className='object-cover h-full' />

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const SentCampaignItem = ({ typeTap, title, donate, totalDonate, user, endDate, image, type, value, id }) => {
   return (
     <div className='border-b pb-4 border-$gray-light'>
-      <Link to={`/${typeTap === "donate" ? 'campaigns' : typeTap}/${id}`}>
+      <Link to={`/campaigns/1`}>
         <div className="my-4 overflow-hidden flex ">
           <div className=" ">
             <img src="/img/camItem.png" alt="" width={"100px"} className=' rounded-xl' />
