@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { BiUser } from 'react-icons/bi'
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import { getBanner } from '../../service/banner/bannerService'
 const HomeBanner = () => {
@@ -27,24 +28,26 @@ const HomeBanner = () => {
     <div className="my-6 ">
       <Slider {...settings}>
         {dataImage &&
-          dataImage.map((item,key) => (
-            <div  key = {key} className="w-full rounded-[20px] overflow-hidden h-[195px] relative bg-gradient-to-t from-$gray-dark">
-              <div className="mix-blend-overlay ">
-                <img src={item.image} alt="" width={'100%'} height={"165px"} className=" object-cover w-full h-full absolute" />
-              </div>
-              <div className='absolute bottom-3 text-$orange left-3'>
-                <div className='text-sm font-bold'>
-                  {item.name}
+          dataImage.map((item, key) => (
+            <Link to={`/campaigns/${item.id}`}>
+              <div key={key} className="w-full rounded-[20px] overflow-hidden h-[195px] relative bg-gradient-to-t from-$gray-dark">
+                <div className="mix-blend-overlay ">
+                  <img src={item.image} alt="" width={'100%'} height={"165px"} className=" object-cover w-full h-full absolute" />
                 </div>
-                <div className='text-xs text-$gray'>รายระเอียด</div>
-              </div>
-              <div className='absolute bottom-3 right-3 text-$gray text-xs flex  items-center gap-1'>
-                <div>
-                  <BiUser size={15} />
+                <div className='absolute bottom-3 text-$orange left-3'>
+                  <div className='text-sm font-bold'>
+                    {item.name}
+                  </div>
+                  <div className='text-xs text-$gray'>รายระเอียด</div>
                 </div>
-                <div>{item.view}</div>
+                <div className='absolute bottom-3 right-3 text-$gray text-xs flex  items-center gap-1'>
+                  <div>
+                    <BiUser size={15} />
+                  </div>
+                  <div>{item.view}</div>
+                </div>
               </div>
-            </div>
+            </Link>
           ))
         }
       </Slider>

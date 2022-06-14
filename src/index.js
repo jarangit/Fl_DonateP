@@ -11,6 +11,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <div>
+        {/* this set ui for close site when user open pc or ipad version */}
         <div className='hidden md:flex justify-center items-center h-screen font-bold'>
         <ComingSoonAllVersion/>
         </div>
@@ -26,3 +27,10 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+// Note from Frontend development
+// all page  --> routes folder
+// all component --> component folder
+// all image  --> public/img folder
+// all function --> service folder
