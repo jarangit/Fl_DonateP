@@ -10,7 +10,7 @@ const TapNavItem = ({ title, id, activeTab, setActiveTab }) => {
     <li
       onClick={handleClick}
       className={`
-      px-2 py-1 cursor-pointer text-xs
+      px-2 py-1 cursor-pointer text-sm
       ${activeTab === id ? 'text-$orange bg-$gray-light rounded-lg' : 'text-black'}
       `}
     >

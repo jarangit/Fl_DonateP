@@ -15,7 +15,7 @@ const HistoryPage = () => {
           name="History"
           link={`/`}
         />
-        <ul className='flex gap-3 justify-between mt-10 h-10 items-center'>
+        <ul className='flex justify-between mt-10 h-10 items-center'>
           <TapNavItem
             id="tap1"
             activeTab={activeTap}
